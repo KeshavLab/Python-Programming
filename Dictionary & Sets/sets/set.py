@@ -31,3 +31,6 @@ my_set.remove(2)      # Removes 2
 my_set.discard(5)     # Safe remove (won't give error if 5 not in set)
 
 print(my_set)         # Output: {1, 3, 4}
+
+for item in my_set:
+    print(item)
