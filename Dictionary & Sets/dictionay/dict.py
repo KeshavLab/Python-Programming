@@ -12,3 +12,14 @@ student = {
     "is_active": True
 }
 print(student)
+
+
+# 🔑 Accessing Elements by keys
+
+print(student["age"])
+print(student.get("name"))
+
+# ✏️ Adding / Updating Elements
+student["age"] = 24                # Update value
+student["city"] = "Mumbai"         # Add new key-value pair
+print(student)
