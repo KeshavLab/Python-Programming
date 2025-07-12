@@ -1,14 +1,10 @@
-my_dict={}
+# sets
 
-student={
-    "name":"keshav",
-    "age":34,
-    "city":"panvel"
-}
+my_set={1,2,3,4,5,6}
+print(my_set)
+print(type(my_set))
 
-print(student["age"])
-print(student.get("marks","Na"))
-student.popitem()
-print(student)
-student.setdefault("gender","male")
-print(student)
+
+my_set1=set([1,2,3,4,5])
+print(my_set1)
+print(type(my_set1))
