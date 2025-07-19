@@ -83,3 +83,9 @@ d.sound()   # Output: Dog barks
 
 c = Cat()
 c.sound()   # Output: Cat meows
+
+'''| Name  | Type   | Meaning               | Used For                                        |
+| ----- | ------ | --------------------- | ----------------------------------------------- |
+| `abc` | Module | Abstract Base Classes | Importing tools like `ABC` and `abstractmethod` |
+| `ABC` | Class  | Abstract Base Class   | Creating abstract classes in your code          |
+'''
