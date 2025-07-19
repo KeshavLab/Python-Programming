@@ -55,6 +55,9 @@ But abstract method should not have actual logic
 from abc import ABC, abstractmethod
 
 # 🔷 Abstract class
+'''ABC: Stands for Abstract Base Class.
+
+abstractmethod: Marks a method that must be implemented by any subclass.'''
 class Animal(ABC):
 
     # 🔒 Abstract method (must be defined by child)
