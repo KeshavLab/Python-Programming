@@ -1,11 +1,25 @@
-n=6
-for i in range(1,n):
-    for j in range(n-i):
-        print(" ",end=" ")
+from abc import ABC,abstractmethod
+
+class Vehical(ABC):
+
+    @abstractmethod
+    def startEngine(self):
+        pass
 
 
-    for j in range(i):
-        print("*",end=" ")
+class Bike(Vehical):
+    def startEngine(self):
+        print("Bike engine started ")
 
-    print()
 
+class Car(Vehical):
+    def startEngine(self):
+        print("car engine is started ")
+
+
+b=Bike()
+b.startEngine()
+
+
+c=Car()
+c.startEngine()
