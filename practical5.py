@@ -1,10 +1,14 @@
-n=5
-m=4
-for i in range(1,n+1):
-    for j in range(m+1):
-        print("*",end=" ")
+num=int(input("enter yout number" ))
+n=len(str(num))
 
-    print()
+sum_of_digit=0
+
+for digit in str(num):
+    sum_of_digit+=int(digit)**n
 
 
-    
+if sum_of_digit==num:
+    print("it is an armstrong number")
+
+else:
+    print("it is not armstrong number ")
