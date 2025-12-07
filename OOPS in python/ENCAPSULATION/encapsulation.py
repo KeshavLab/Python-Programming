@@ -15,6 +15,9 @@ Uske through tum balance dekhte ho, paisa nikaalte ho, etc.
 
 Yahi Encapsulation hai.
 
+
+Encapsulation means hiding the data of a class and allowing access only through methods.
+
 '''
 
 
