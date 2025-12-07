@@ -22,3 +22,19 @@ class Student:
 
 s1=Student("keshav",21)
 s1.show_student_info()
+
+
+"""
+2️⃣ Function (Method)
+
+A normal block of code inside or outside a class.
+
+Runs only when you call it.
+
+Used to perform actions / tasks.
+"""
+def add(a, b):
+    return a + b
+
+sum=add(10,20)
+print("Sum is :",sum)
