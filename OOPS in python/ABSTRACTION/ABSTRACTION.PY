@@ -61,8 +61,9 @@ abstractmethod: Marks a method that must be implemented by any subclass.'''
 class Animal(ABC):
 
     # 🔒 Abstract method (must be defined by child)
-    @abstractmethod
-    def sound(self):
+    @abstractmethod      #tells Python: “This method is compulsory for all subclasses.” (Every animal must have a sound().
+                                         #But each animal makes a different sound.)
+    def sound(self):     #means the method has no body here.
         pass
 
 # 🔶 Concrete class
