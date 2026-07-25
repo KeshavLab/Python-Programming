@@ -25,3 +25,6 @@ Parentheses are just for grouping in math or expressions, unless there's a comma
 tup = (1)
 print(tup)         # Output: 1
 print(type(tup))   # Output: <class 'int'>
+
+
+print("Here is a tuple with multiple elements:")
